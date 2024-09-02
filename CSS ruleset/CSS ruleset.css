@@ -1,0 +1,90 @@
+A CSS ruleset is various affirmations to various pieces or elements of the document. The objective is to apply a bunch of properties for certain distinct qualities to a solitary, or a particular arrangement of components in the connected HTML page. 
+
+CSS ruleset - 
+The “.” in the beginning indicates that the rule created will be a class, also “container” indicates the name of the selector. Similarly “first-child” indicates the pseudo-class, and elements inside curly brackets are elements of a declaration block, which contains some CSS properties and their corresponding values. The CSS ruleset will be applied when the selector name is called on the main HTML page. 
+CSS Ruleset is the main building block of the CSS stylesheet.
+
+Example 1: The following code demonstrates the application of CSS ruleset on various HTML elements. The class name is used to give property and its corresponding values. The :first-child selector is used to selecting those elements which are the first-child elements as implemented below for the HTML “p” element. 
+
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <title>Rulesets in CSS</title> 
+    <style> 
+        h1 { 
+            color: green; 
+        } 
+        /* Selector */ 
+        p:first-child{  
+             
+            /* Declaration-block */ 
+            background-color: yellow; 
+            color: white; 
+            font-size: 17px; 
+            border-radius: 40px         
+            ; 
+            text-transform: uppercase                 
+            ; 
+            font-weight: italic; 
+        } 
+  
+        body { 
+            text-align: center; 
+        } 
+    </style> 
+</head> 
+  <body> 
+    <div> 
+        <p>Hi </p> 
+        <h1>CSS ruleset</h1> 
+        <h2>CSS properties</h2> 
+        <p>Stylesheet CSS</p> 
+    </div> 
+</body> 
+</html> 
+
+Here is another Example : The following code also applied some of the different CSS ruleset for various HTML elements.
+
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <title>Rulesets in CSS</title> 
+    <style> 
+      h1 { 
+        color: green; 
+      } 
+        
+      /* Selector */ 
+      span { 
+          
+        /* Declaration-block */ 
+        background-color: grey; 
+        color: white; 
+        padding: 6px; 
+        font-size: 14px; 
+        border-radius: 40px; 
+        text-transform: uppercase; 
+      } 
+      h2 { 
+        font-size: medium; 
+      } 
+      .divClass { 
+        font-family: "Franklin Gothic Medium",  
+                     "Arial Narrow", Arial, sans-serif; 
+      } 
+      body { 
+        text-align: center; 
+      } 
+    </style> 
+  </head> 
+    <body> 
+    <div class="divClass"> 
+      <span> This one is CSS span </span> 
+      <h1>CSS Stylesheet page</h1> 
+      <h2> 
+        This CSS rule is apply for different  <br /> 
+        forms to various ones of the document. 
+      </h2> 
+    </div> 
+  </body> 
+</html>
